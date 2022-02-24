@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Germanized Chinese in Swizerland`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Jing Xie`,
+      summary: `who lives and works in Luzern showing interesting things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `A starter blog showing interesting things from Luzern.`,
+    siteUrl: `https://www.gabrielcmoris.com`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `gabrielcmoris`,
     },
   },
   plugins: [
