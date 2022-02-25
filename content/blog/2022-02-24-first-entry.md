@@ -2,7 +2,7 @@
 layout: blog
 title: First Entry
 date: 2022-02-24T18:45:33.408Z
-thumbnail: https://media.giphy.com/media/E7VoLmb5BoHYs/giphy.gif
+thumbnail: https://www.transportation.gov/sites/dot.gov/files/images/Plan_travel.jpg
 ---
 ## A gift for you and for the readers.
 

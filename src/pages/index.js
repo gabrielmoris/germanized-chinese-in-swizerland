@@ -29,14 +29,43 @@ const BlogIndex = ({ data, location }) => {
       <Seo title="All posts" />
       <Helmet>
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        {/* <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/icon?family=Material+Icons"
+        /> */}
       </Helmet>
-      <Bio />
+      <Bio /> 
       <ol style={{ listStyle: `none` }}>
         {posts.map(post => {
           const title = post.frontmatter.title || post.fields.slug
 
           return (
             <li key={post.fields.slug}>
+              {/* <Link to={post.fields.slug} itemProp="url">
+                <Card>
+                  <CardHeader
+                    avatar={
+                      <Avatar sx={{ bgcolor: "red" }} aria-label="recipe">
+                        GCS
+                      </Avatar>
+                    }
+                    itemProp="headline"
+                    title={title}
+                    subheader={post.frontmatter.date}
+                  />
+                  <CardContent>
+                    <Typography variant="body2" color="text.secondary">
+                      {post.frontmatter.description || post.excerpt}
+                    </Typography>
+                  </CardContent>
+                </Card>
+              </Link> */}
+
+              {/* Here are the cards 👆*/}
               <article
                 className="post-list-item"
                 itemScope
