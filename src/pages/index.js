@@ -5,6 +5,11 @@ import Bio from "../components/bio"
 import Layout from "../components/layout"
 import Seo from "../components/seo"
 import { Helmet } from "react-helmet"
+import Card from "@mui/material/Card"
+import CardHeader from "@mui/material/CardHeader"
+import Avatar from "@mui/material/Avatar"
+import CardContent from "@mui/material/CardContent"
+import Typography from "@mui/material/Typography"
 
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
@@ -45,7 +50,7 @@ const BlogIndex = ({ data, location }) => {
 
           return (
             <li key={post.fields.slug}>
-              {/* <Link to={post.fields.slug} itemProp="url">
+              <Link to={post.fields.slug} itemProp="url">
                 <Card>
                   <CardHeader
                     avatar={
@@ -63,10 +68,10 @@ const BlogIndex = ({ data, location }) => {
                     </Typography>
                   </CardContent>
                 </Card>
-              </Link> */}
+              </Link>
 
               {/* Here are the cards 👆*/}
-              <article
+              {/* <article
                 className="post-list-item"
                 itemScope
                 itemType="http://schema.org/Article"
@@ -87,7 +92,7 @@ const BlogIndex = ({ data, location }) => {
                     itemProp="description"
                   />
                 </section>
-              </article>
+              </article> */}
             </li>
           )
         })}
