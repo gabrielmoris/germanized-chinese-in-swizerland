@@ -2,7 +2,7 @@
 layout: blog
 title: First Entry
 date: 2022-02-24T18:45:33.408Z
-thumbnail: /static/img/psfix_20210418_171942.jpeg
+thumbnail: /assets/img/descarga.png
 ---
 ## A gift for you and for the readers.
 
